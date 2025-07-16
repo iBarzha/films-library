@@ -33,3 +33,91 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Additional Rails specific files
+/config/credentials.yml.enc
+
+# Database files (PostgreSQL dumps, SQLite fallbacks)
+*.sql
+*.dump
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-*
+
+# Ruby version managers
+.rbenv-version
+.ruby-version
+.ruby-gemset
+
+# RSpec
+/spec/tmp/*
+/spec/examples.txt
+/coverage/
+.rspec_status
+
+# Simplecov coverage reports
+coverage/
+.simplecov
+
+# Yard documentation
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# Byebug command history
+.byebug_history
+
+# Spring
+spring/
+.spring/
+
+# Node.js and Yarn (for asset compilation)
+/node_modules/
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Application specific uploads and exports
+/uploads/
+/exports/
+/imports/
+
+# Deployment
+/config/deploy/*
+/shared/
+
+# ActiveAdmin customizations (if any custom assets)
+/app/assets/images/admin/
+/vendor/assets/admin/
+
+# Capybara screenshots
+/tmp/capybara/
+
+# RuboCop cache
+.rubocop_todo.yml
+.rubocop-*
